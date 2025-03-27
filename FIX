@@ -125,6 +125,54 @@
       "url": "https://detectportal.firefox.com/success.txt"
     },
     {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Lock Region ID",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "WhatsApp",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "GAMESMAX(ML/FF/AOV)",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Route Port Game",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Option ADs",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Option P0rn",
+      "type": "selector"
+    },
+    {
       "domain_strategy": "ipv4_only",
       "flow": "",
       "multiplex": {
@@ -467,17 +515,17 @@
         "geosite": [
           "rule-ads"
         ],
-        "outbound": "Internet"
+        "outbound": "Option ADs
       },
       {
         "geosite": [
           "category-porn"
         ],
-        "outbound": "Internet"
+        "outbound": "Option P0rn"
       },
       {
         "geosite": "whatsapp",
-        "outbound": "Internet"
+        "outbound": "WhatsApp"
       },
       {
         "geoip": "facebook",
@@ -491,7 +539,7 @@
           50318,
           59234
         ],
-        "outbound": "Internet"
+        "outbound": "WhatsApp"
       },
       {
         "protocol": "stun",
@@ -503,7 +551,7 @@
           "videoconference",
           "bank-id"
         ],
-        "outbound": "Internet"
+        "outbound": "Lock Region ID"
       },
       {
         "network": "udp",
@@ -561,7 +609,7 @@
           "10080:10110",
           "17000:18000"
         ],
-        "outbound": "Internet"
+        "outbound": "GAMESMAX(ML/FF/AOV)"
       },
       {
         "network": "tcp",
@@ -663,7 +711,7 @@
           "49001:49190",
           "8393:8400"
         ],
-        "outbound": "Internet"
+        "outbound": "Route Port Game"
       },
       {
         "network": "udp",
@@ -781,7 +829,7 @@
           "27016:27024",
           "54000:54012"
         ],
-        "outbound": "Internet"
+        "outbound": "Route Port Game"
       },
       {
         "geoip": [
@@ -827,7 +875,7 @@
           8889,
           42069
         ],
-        "outbound": "Internet"
+        "outbound": "Lock Region ID"
       },
       {
         "port": [
@@ -877,7 +925,7 @@
           "1023:42068",
           "42070:65535"
         ],
-        "outbound": "Internet"
+        "outbound": "Route Port Game"
       },
       {
         "ip_cidr": [
