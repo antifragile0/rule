@@ -105,7 +105,7 @@
       "tag": "Internet",
       "type": "selector"
     },
-	{
+    {
       "outbounds": [
         "Best Latency",
         "🇸🇬 (SG) Akamai Connected Cloud",
@@ -123,7 +123,7 @@
       "tag": "Lock Region ID",
       "type": "selector"
     },
-	{
+    {
       "outbounds": [
         "Best Latency",
         "🇸🇬 (SG) Akamai Connected Cloud",
@@ -141,7 +141,7 @@
       "tag": "WhatsApp",
       "type": "selector"
     },
-	{
+    {
       "outbounds": [
         "Best Latency",
         "🇸🇬 (SG) Akamai Connected Cloud",
@@ -159,7 +159,7 @@
       "tag": "GAMESMAX(ML/FF/AOV)",
       "type": "selector"
     },
-	{
+    {
       "outbounds": [
         "Best Latency",
         "🇸🇬 (SG) Akamai Connected Cloud",
@@ -177,7 +177,7 @@
       "tag": "Route Port Game",
       "type": "selector"
     },
-	{
+    {
       "outbounds": [
         "Internet",
         "block"
@@ -185,7 +185,7 @@
       "tag": "Option ADs",
       "type": "selector"
     },
-	{
+    {
       "outbounds": [
         "Internet",
         "block"
