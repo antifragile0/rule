@@ -90,35 +90,83 @@
     {
       "outbounds": [
         "Best Latency",
-        "🇸🇬 (SG) Akamai Connected Cloud",
-        "🇸🇬 (SG) Oracle Cloud",
-        "🇸🇬 (SG) Oracle Cloud 2",
-        "🇸🇬 (SG) Oracle Cloud 3",
-        "🇸🇬 (SG) Digital Ocean",
-        "🇸🇬 (SG) Oracle Cloud 4",
-        "🇸🇬 (SG) Digital Ocean 2",
-        "🇸🇬 (SG) Oracle Cloud 5",
-        "🇸🇬 (SG) Alibaba",
-        "🇸🇬 (SG) OVH Hosting",
+        "(SG) Akamai Connected Cloud",
+        "(SG) Oracle Cloud",
+        "(SG) Oracle Cloud 2",
+        "(SG) Oracle Cloud 3",
+        "(SG) Digital Ocean",
+        "(SG) Oracle Cloud 4",
+        "(SG) Digital Ocean 2",
+        "(SG) Oracle Cloud 5",
+        "(SG) Alibaba",
+        "(SG) OVH Hosting",
         "direct"
       ],
       "tag": "Internet",
       "type": "selector"
     },
     {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Lock Region ID",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "WhatsApp",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "(SG) Akamai Connected Cloud",
+        "direct"
+      ],
+      "tag": "GAMESMAX(ML/FF/AOV)",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Route Port Game",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Internet",
+        "block"
+      ],
+      "tag": "Option ADs",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Internet",
+        "block"
+      ],
+      "tag": "Option P0rn",
+      "type": "selector"
+    },
+    {
       "interval": "1m0s",
       "outbounds": [
-        "🇸🇬 (SG) Akamai Connected Cloud",
-        "🇸🇬 (SG) Oracle Cloud",
-        "🇸🇬 (SG) Oracle Cloud 2",
-        "🇸🇬 (SG) Oracle Cloud 3",
-        "🇸🇬 (SG) Digital Ocean",
-        "🇸🇬 (SG) Oracle Cloud 4",
-        "🇸🇬 (SG) Digital Ocean 2",
-        "🇸🇬 (SG) Oracle Cloud 5",
-        "🇸🇬 (SG) Alibaba",
-        "🇸🇬 (SG) OVH Hosting",
-        "direct"
+        "(SG) Akamai Connected Cloud",
+        "(SG) Oracle Cloud",
+        "(SG) Oracle Cloud 2",
+        "(SG) Oracle Cloud 3",
+        "(SG) Digital Ocean",
+        "(SG) Oracle Cloud 4",
+        "(SG) Digital Ocean 2",
+        "(SG) Oracle Cloud 5",
+        "(SG) Alibaba",
+        "(SG) OVH Hosting",
       ],
       "tag": "Best Latency",
       "type": "urltest",
@@ -135,7 +183,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Akamai Connected Cloud",
+      "tag": "(SG) Akamai Connected Cloud",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -165,7 +213,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Oracle Cloud",
+      "tag": "(SG) Oracle Cloud",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -195,7 +243,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Oracle Cloud 2",
+      "tag": "(SG) Oracle Cloud 2",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -225,7 +273,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Oracle Cloud 3",
+      "tag": "(SG) Oracle Cloud 3",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -255,7 +303,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Digital Ocean",
+      "tag": "(SG) Digital Ocean",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -285,7 +333,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Oracle Cloud 4",
+      "tag": "(SG) Oracle Cloud 4",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -315,7 +363,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Digital Ocean 2",
+      "tag": "(SG) Digital Ocean 2",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -345,7 +393,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Oracle Cloud 5",
+      "tag": "(SG) Oracle Cloud 5",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -375,7 +423,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) Alibaba",
+      "tag": "(SG) Alibaba",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -405,7 +453,7 @@
       "packet_encoding": "xudp",
       "server": "ava.game.naver.com",
       "server_port": 443,
-      "tag": "🇸🇬 (SG) OVH Hosting",
+      "tag": "(SG) OVH Hosting",
       "tls": {
         "disable_sni": false,
         "enabled": true,
@@ -451,11 +499,20 @@
         ]
       },
       {
-        "network": "udp",
+        "inbound": [
+          "dns-in"
+        ],
+        "outbound": "dns-out"
+      },
+      {
+        "network": [
+          "udp"
+        ],
+        "outbound": "block",
         "port": [
           443
-        ],
-        "outbound": "block"
+        ]
+      },
       },
       {
         "domain_suffix": [
@@ -467,17 +524,17 @@
         "geosite": [
           "rule-ads"
         ],
-        "outbound": "Internet"
+        "outbound": "Option ADs"
       },
       {
         "geosite": [
           "category-porn"
         ],
-        "outbound": "Internet"
+        "outbound": "Option P0rn"
       },
       {
         "geosite": "whatsapp",
-        "outbound": "Internet"
+        "outbound": "WhatsApp"
       },
       {
         "geoip": "facebook",
@@ -491,7 +548,7 @@
           50318,
           59234
         ],
-        "outbound": "Internet"
+        "outbound": "WhatsApp"
       },
       {
         "protocol": "stun",
@@ -503,7 +560,7 @@
           "videoconference",
           "bank-id"
         ],
-        "outbound": "Internet"
+        "outbound": "Lock Region ID"
       },
       {
         "network": "udp",
@@ -561,7 +618,7 @@
           "10080:10110",
           "17000:18000"
         ],
-        "outbound": "Internet"
+        "outbound": "GAMESMAX(ML/FF/AOV)"
       },
       {
         "network": "tcp",
@@ -663,7 +720,7 @@
           "49001:49190",
           "8393:8400"
         ],
-        "outbound": "Internet"
+        "outbound": "Route Port Game"
       },
       {
         "network": "udp",
@@ -781,7 +838,7 @@
           "27016:27024",
           "54000:54012"
         ],
-        "outbound": "Internet"
+        "outbound": "Route Port Game"
       },
       {
         "geoip": [
@@ -827,7 +884,7 @@
           8889,
           42069
         ],
-        "outbound": "Internet"
+        "outbound": "Lock Region ID"
       },
       {
         "port": [
@@ -877,7 +934,7 @@
           "1023:42068",
           "42070:65535"
         ],
-        "outbound": "Internet"
+        "outbound": "Route Port Game"
       },
       {
         "ip_cidr": [
