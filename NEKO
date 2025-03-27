@@ -90,6 +90,500 @@
     {
       "outbounds": [
         "Best Latency",
+        "(SG) Akamai Connected Cloud",
+        "(SG) Oracle Cloud",
+        "(SG) Oracle Cloud 2",
+        "(SG) Oracle Cloud 3",
+        "(SG) Digital Ocean",
+        "(SG) Oracle Cloud 4",
+        "(SG) Digital Ocean 2",
+        "(SG) Oracle Cloud 5",
+        "(SG) Alibaba",
+        "(SG) OVH Hosting",
+        "direct"
+      ],
+      "tag": "Internet",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Lock Region ID",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "WhatsApp",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "(SG) Akamai Connected Cloud",
+        "direct"
+      ],
+      "tag": "GAMESMAX(ML/FF/AOV)",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Best Latency",
+        "direct"
+      ],
+      "tag": "Route Port Game",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Internet",
+        "block"
+      ],
+      "tag": "Option ADs",
+      "type": "selector"
+    },
+    {
+      "outbounds": [
+        "Internet",
+        "block"
+      ],
+      "tag": "Option P0rn",
+      "type": "selector"
+    },
+    {
+      "interval": "1m0s",
+      "outbounds": [
+        "(SG) Akamai Connected Cloud",
+        "(SG) Oracle Cloud",
+        "(SG) Oracle Cloud 2",
+        "(SG) Oracle Cloud 3",
+        "(SG) Digital Ocean",
+        "(SG) Oracle Cloud 4",
+        "(SG) Digital Ocean 2",
+        "(SG) Oracle Cloud 5",
+        "(SG) Alibaba",
+        "(SG) OVH Hosting",
+      ],
+      "tag": "Best Latency",
+      "type": "urltest",
+      "url": "https://detectportal.firefox.com/success.txt"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Akamai Connected Cloud",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/139.162.33.248-587",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "e1e9914b-d0c4-4b6d-a1a7-0e33a1694ff5"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Oracle Cloud",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/138.2.89.238-43254",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "c7fe7e07-694b-4a17-b400-87393c2bf5ae"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Oracle Cloud 2",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/213.35.108.135-12596",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "c8c6d885-8259-49e1-ac45-96abf1fa2587"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Oracle Cloud 3",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/129.150.58.86-57621",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "c87572e9-6471-4074-ad9a-aedf7e5a4272"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Digital Ocean",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/178.128.80.43-443",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "ace98d28-6958-4885-894b-7e4933ef68f0"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Oracle Cloud 4",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/129.150.49.58-18650",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "81031549-9d43-4519-a676-7913af74fca5"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Digital Ocean 2",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/167.71.194.185-8443",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "ed9243fe-0e1f-4f83-a74d-3237ab761a58"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Oracle Cloud 5",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/168.138.166.213-10500",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "21ad5106-9408-480f-895d-5efe2c77a8a2"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) Alibaba",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/47.74.254.191-8900",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "84438873-d3a2-41ec-bf75-68189c85bf69"
+    },
+    {
+      "domain_strategy": "ipv4_only",
+      "flow": "",
+      "multiplex": {
+        "enabled": false,
+        "max_streams": 32,
+        "protocol": "smux"
+      },
+      "packet_encoding": "xudp",
+      "server": "ava.game.naver.com",
+      "server_port": 443,
+      "tag": "(SG) OVH Hosting",
+      "tls": {
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "ava.game.naver.com.free.c-stuff.net"
+      },
+      "transport": {
+        "early_data_header_name": "Sec-WebSocket-Protocol",
+        "headers": {
+          "Host": "ava.game.naver.com.free.c-stuff.net"
+        },
+        "max_early_data": 0,
+        "path": "/Free/TG-at-BitzBlack/51.79.158.126-443",
+        "type": "ws"
+      },
+      "type": "vless",
+      "uuid": "6539ae00-7e1f-4b10-8514-0e5e622e9981"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "block",
+      "type": "block"
+    },
+    {
+      "tag": "dns-out",
+      "type": "dns"
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "rules": [
+{
+  "dns": {
+    "final": "dns-final",
+    "independent_cache": true,
+    "rules": [
+      {
+        "disable_cache": false,
+        "domain": [
+          "family.cloudflare-dns.com",
+          "ava.game.naver.com"
+        ],
+        "server": "direct-dns"
+      }
+    ],
+    "servers": [
+      {
+        "address": "https://family.cloudflare-dns.com/dns-query",
+        "address_resolver": "direct-dns",
+        "strategy": "ipv4_only",
+        "tag": "remote-dns"
+      },
+      {
+        "address": "local",
+        "strategy": "ipv4_only",
+        "tag": "direct-dns"
+      },
+      {
+        "address": "local",
+        "address_resolver": "dns-local",
+        "strategy": "ipv4_only",
+        "tag": "dns-final"
+      },
+      {
+        "address": "local",
+        "tag": "dns-local"
+      },
+      {
+        "address": "rcode://success",
+        "tag": "dns-block"
+      }
+    ]
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "../cache/clash.db",
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "../files/yacd"
+    }
+  },
+  "inbounds": [
+    {
+      "listen": "0.0.0.0",
+      "listen_port": 6450,
+      "override_address": "8.8.8.8",
+      "override_port": 53,
+      "tag": "dns-in",
+      "type": "direct"
+    },
+    {
+      "domain_strategy": "",
+      "endpoint_independent_nat": true,
+      "inet4_address": [
+        "172.19.0.1/28"
+      ],
+      "mtu": 9000,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "stack": "system",
+      "tag": "tun-in",
+      "type": "tun"
+    },
+    {
+      "domain_strategy": "",
+      "listen": "0.0.0.0",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": true,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "log": {
+    "level": "info"
+  },
+  "outbounds": [
+    {
+      "outbounds": [
+        "Best Latency",
         "🇸🇬 (SG) Akamai Connected Cloud",
         "🇸🇬 (SG) Oracle Cloud",
         "🇸🇬 (SG) Oracle Cloud 2",
@@ -1302,6 +1796,17 @@
           "42070:65535"
         ],
         "outbound": "Route Port Game"
+      },
+      {
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "outbound": "block",
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
       }
     ]
   }
