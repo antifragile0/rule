@@ -3,3 +3,19 @@ payload:
 #- IP-CIDR,66.111.48.0/22
 #- IP-CIDR6,2620:13e:1000::/44
 - DOMAIN-SUFFIX,jg-gta.com
+
+# SPEEDTEST
+- DOMAIN-SUFFIX,ookla.com
+- DOMAIN-SUFFIX,ooklaserver.net
+- DOMAIN-SUFFIX,pingtest.net
+- DOMAIN-SUFFIX,speedtest.co
+- DOMAIN-SUFFIX,speedtest.net
+- DOMAIN-SUFFIX,speedtestcustom.com
+- DOMAIN-SUFFIX,webtest.net
+- DOMAIN-SUFFIX,speed.cloudflare.com
+- DOMAIN-SUFFIX,speed.dler.io
+- DOMAIN-SUFFIX,openspeedtest.com
+- DOMAIN-SUFFIX,cachefly.net
+- DOMAIN-KEYWORD,speedtest
+- DOMAIN-KEYWORD,speedtestcustom
+- DOMAIN-KEYWORD,openspeedtest
