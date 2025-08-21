@@ -20,3 +20,6 @@ payload:
 - DOMAIN-KEYWORD,speedtestcustom
 - DOMAIN-KEYWORD,openspeedtest
 - DOMAIN-SUFFIX,real-debrid.com
+- DOMAIN-SUFFIX,browserleaks.com
+- DOMAIN-SUFFIX,iplocation.net
+- DOMAIN-SUFFIX,api.ip.sb
