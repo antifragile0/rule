@@ -1,4 +1,8 @@
 payload:
+# DownloadTest
+- DOMAIN-KEYWORD,speed.hetzner
+- DOMAIN-SUFFIX,sharepoint.com
+- DOMAIN-SUFFIX,1drv.com
 # Hotstar
 - IP-CIDR,198.18.0.1/16
 - DOMAIN-SUFFIX,heytapmobile.com
