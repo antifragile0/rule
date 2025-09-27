@@ -1,4 +1,123 @@
 payload:
+# > Beinsport
+- DOMAIN-SUFFIX,beinsports.com
+- DOMAIN-SUFFIX,beiniz.biz
+- DOMAIN-SUFFIX,connect-id.beinsports.com
+- DOMAIN-KEYWORD,bein
+
+# > DensTV
+- DOMAIN-SUFFIX,dens.tv
+
+# > LiveTV GO
+- DOMAIN-SUFFIX,livetvgo.my.id
+- DOMAIN-KEYWORD,livetvgo
+
+# > MNC Now
+- DOMAIN-SUFFIX,mncnow.id
+- DOMAIN-SUFFIX,mncplay.id
+- DOMAIN-KEYWORD,mncnow
+- DOMAIN-KEYWORD,mncplay
+
+# > Mola TV
+- DOMAIN-SUFFIX,mola.tv
+- DOMAIN-SUFFIX,cdn.mola.tv
+- DOMAIN-SUFFIX,vod.cdn.mola.tv.akamaized.net
+- DOMAIN-SUFFIX,api.sent.tv
+- DOMAIN-SUFFIX,mola01.koicdn.com
+- DOMAIN-KEYWORD,mola
+
+# > Oxygen ID
+- DOMAIN-SUFFIX,oxygen.id
+
+# > SeulangaTV
+- DOMAIN-SUFFIX,seulangatv.com
+- DOMAIN-KEYWORD,seulanga
+
+# > TRANSVISION
+- DOMAIN-SUFFIX,cubmu.com
+- DOMAIN-SUFFIX,transvision.co.id
+- DOMAIN-KEYWORD,transvision
+
+# > UseeTV + IndiHome + MAXStream
+- DOMAIN-SUFFIX,useetv.com
+- DOMAIN-SUFFIX,indihometv.com
+- DOMAIN-SUFFIX,useetvgo.com
+- DOMAIN-KEYWORD,useetv
+- DOMAIN-KEYWORD,telkomsel
+
+# > Vision+
+visionplus.id
+rmp-data.com
+- DOMAIN-SUFFIX,stream-cdn.mncnow.id
+- DOMAIN-SUFFIX,dtaarjaj1diy9.cloudfront.net
+- DOMAIN-SUFFIX,mrpw.ptmnc01.verspective.net
+- DOMAIN-KEYWORD,visionplus
+
+# > Vidio
+- DOMAIN-SUFFIX,vidio.com
+- DOMAIN-SUFFIX,prod.vidiocdn.com
+- DOMAIN-SUFFIX,secureswiftcontent.com
+- DOMAIN-SUFFIX,license-global.pallycon.com
+- DOMAIN-SUFFIX,media-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,etslive-2-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,token-media-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,static-web-prod-vidio.akamaized.net
+- DOMAIN-SUFFIX,geo-id-media-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,geo-id-tl-media-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,static-playback-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,live-production.secureswiftcontent.com
+- DOMAIN-KEYWORD,vidio-bein
+- DOMAIN-KEYWORD,vidio
+
+# > BILIBILI
+- DOMAIN-SUFFIX,biliapi.com
+- DOMAIN-SUFFIX,biliapi.net
+- DOMAIN-SUFFIX,bilibili.com
+- DOMAIN-SUFFIX,bilibili.tv
+- DOMAIN-SUFFIX,biliintl.com
+- DOMAIN-SUFFIX,bilibilicomics.com
+- DOMAIN-SUFFIX,bilivideo.com
+- DOMAIN-SUFFIX,bilivideo.net
+- DOMAIN-SUFFIX,bstarstatic.com
+- DOMAIN-SUFFIX,hdslb.com
+- DOMAIN-SUFFIX,s-bstarstatic.akamaized.net
+- DOMAIN-SUFFIX,pic-bstarstatic.akamaized.net
+- DOMAIN-SUFFIX,upos-hz-mirrorakam.akamaized.net
+- DOMAIN-SUFFIX,upos-bstar1-mirrorakam.akamaized.net
+
+# > Disney Plus + Hotstar (Additional)
+- DOMAIN-SUFFIX,starott.com
+- DOMAIN-SUFFIX,disneyplus.disney.co.jp
+
+# > VIU
+- DOMAIN-SUFFIX,viu.com
+- DOMAIN-SUFFIX,viu.tv
+- DOMAIN-SUFFIX,viuapi.io
+- DOMAIN-SUFFIX,viu-static.akamaized.net
+- DOMAIN-SUFFIX,gcpvuclip-a.akamaihd.net
+- DOMAIN-SUFFIX,vuclip-eip2.akamaized.net
+- DOMAIN-SUFFIX,vuclipi-a.akamaihd.net
+
+
+# > WeTV
+- DOMAIN-SUFFIX,iflix.com
+- DOMAIN-SUFFIX,wetv.vip
+- DOMAIN-SUFFIX,wetvinfo.com
+- DOMAIN-SUFFIX,tc.qq.com
+- DOMAIN-SUFFIX,v.smtcdns.com
+- DOMAIN-SUFFIX,v.smtcdns.net
+- DOMAIN-SUFFIX,wetvdefaultts.tc.qq.com
+- DOMAIN-SUFFIX,webrtcpunch.video.qq.com
+- DOMAIN-SUFFIX,apd-vlive.apdcdn.tc.qq.com
+- DOMAIN-SUFFIX,iflix-images.akamaized.net
+
+#Philips Wiz Smart Gateway
+- DOMAIN-SUFFIX,wiz.world
+- DOMAIN-SUFFIX,wizconnected.com
+- DOMAIN-SUFFIX,wizconnected.helpshift.com
+
+
+
 - DOMAIN-SUFFIX,loklok.video
 - DOMAIN-SUFFIX,loklok.cloud
 - DOMAIN-SUFFIX,subloklok.com
