@@ -102,6 +102,25 @@ rmp-data.com
 - DOMAIN-SUFFIX,live-production.secureswiftcontent.com
 - DOMAIN-KEYWORD,vidio-bein
 - DOMAIN-KEYWORD,vidio
+- DOMAIN-SUFFIX,thumbor.prod.vid.id
+- DOMAIN-SUFFIX,static-playback.prod.vid.id
+- DOMAIN-SUFFIX,vid.id
+- DOMAIN-SUFFIX,static-playback-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,plenty.vidio.com
+- DOMAIN-SUFFIX,vidio.com
+- DOMAIN-SUFFIX,www.vidio.com
+- DOMAIN-SUFFIX,api.vidio.com
+- DOMAIN-SUFFIX,api-ns.vidio.com
+- DOMAIN-SUFFIX,media-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,static-web-prod-vidio.akamaized.net
+- DOMAIN-SUFFIX,geo-id-media-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,hermes.vidio.com
+- DOMAIN-SUFFIX,token-media-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,etslive-2-vidio-com.akamaized.net
+- DOMAIN-SUFFIX,live-production.secureswiftcontent.com
+- DOMAIN-SUFFIX,secureswiftcontent.com
+- DOMAIN-SUFFIX,vidiocdn.com
+- DOMAIN-KEYWORD,vidio
 
 # > BILIBILI
 - DOMAIN-SUFFIX,biliapi.com
@@ -124,8 +143,17 @@ rmp-data.com
 - DOMAIN-SUFFIX,disneyplus.disney.co.jp
 
 # > VIU
+- DOMAIN-SUFFIX,cognito-identity.us-east-1.amazonaws.com
+- DOMAIN-SUFFIX,mobileanalytics.us-east-1.amazonaws.com
+- DOMAIN-SUFFIX,nowe.com
 - DOMAIN-SUFFIX,viu.com
+- DOMAIN-SUFFIX,viu.now.com
 - DOMAIN-SUFFIX,viu.tv
+- DOMAIN-SUFFIX,viuapi.io
+- DOMAIN-SUFFIX,viu-static.akamaized.net
+- DOMAIN-SUFFIX,viu-android-artifacts.s3-ap-southeast-1.amazonaws.com
+- DOMAIN-KEYWORD,vuclip
+- DOMAIN-KEYWORD,viu
 - DOMAIN-SUFFIX,viuapi.io
 - DOMAIN-SUFFIX,viu-static.akamaized.net
 - DOMAIN-SUFFIX,gcpvuclip-a.akamaihd.net
@@ -155,43 +183,11 @@ rmp-data.com
 - DOMAIN-SUFFIX,loklok.video
 - DOMAIN-SUFFIX,loklok.cloud
 - DOMAIN-SUFFIX,subloklok.com
-# TikTok
-- DOMAIN-SUFFIX,byteoversea.com
-- DOMAIN-SUFFIX,ibytedtos.com
-- DOMAIN-SUFFIX,ipstatp.com
-- DOMAIN-SUFFIX,muscdn.com
-- DOMAIN-SUFFIX,musical.ly
-- DOMAIN-SUFFIX,tiktok.com
-- DOMAIN-SUFFIX,tik-tokapi.com
-- DOMAIN-SUFFIX,tiktokcdn.com
-- DOMAIN-SUFFIX,tiktokv.com
-- DOMAIN-KEYWORD,-tiktokcdn-com
-- DOMAIN-KEYWORD,-tiktok.byteoversea.com
-- DOMAIN-SUFFIX,byteoversea.net
-- DOMAIN-KEYWORD,-tiktok.
-- DOMAIN-KEYWORD,-tiktok-
-- DOMAIN-KEYWORD,tiktok-
-- DOMAIN-KEYWORD,tiktokcdn-
-- DOMAIN-KEYWORD,tiktokcdn
-- DOMAIN-KEYWORD,-tt.byteimg.com
-- DOMAIN-KEYWORD,-tt-ipv6.byteimg.com
-- DOMAIN-KEYWORD,-hs.pstatp.com
-- DOMAIN-KEYWORD,-tos.pstatp.com
-- DOMAIN-KEYWORD,-mus.pstatp.com
-- DOMAIN-SUFFIX,flive.pstatp.com
-- DOMAIN-SUFFIX,byteimg.com
-- DOMAIN-SUFFIX,ibyteimg.com
-- DOMAIN-SUFFIX,sgpstatp.com
-- DOMAIN-SUFFIX,snssdk.com
-- DOMAIN-KEYWORD,tlivecdn.com
-- DOMAIN-KEYWORD,ttlivecdn.com
-- DOMAIN-SUFFIX,tiktokd.org
-- DOMAIN-SUFFIX,ttoversea.net
-- DOMAIN-SUFFIX,ttoverseaus.net
-- DOMAIN-SUFFIX,sgsnssdk.com
-- DOMAIN-SUFFIX,isnssdk.com
-- DOMAIN-SUFFIX,musemuse.cn
-- DOMAIN-SUFFIX,p16-tiktokcdn-com.akamaized.net
+- DOMAIN,akm-cdn-play.loklok.video
+- DOMAIN,img.netpop.app
+- DOMAIN,ugc.netpop.app
+- DOMAIN,subtitles.netpop.app
+
 # HBO GO HKG
 - DOMAIN-SUFFIX,hbogoasia.com
 - DOMAIN-SUFFIX,hbogoasia.hk
