@@ -11,6 +11,59 @@ payload:
 - DOMAIN-KEYWORD,wallbuck.com
 - DOMAIN-KEYWORD,laksa19.github.io
 
+- DOMAIN-KEYWORD,zippyshare
+- DOMAIN-KEYWORD,speed.hetzner
+- DOMAIN-KEYWORD,googleusercontent
+- DOMAIN-KEYWORD,moon-storage-delivery
+- DOMAIN-KEYWORD,userstorage.mega
+- DOMAIN-KEYWORD,1fichier.com
+- DOMAIN-KEYWORD,uptobox
+- DOMAIN-KEYWORD,ff-01.com
+- DOMAIN-KEYWORD,mediafire.com
+- DOMAIN-KEYWORD,userdrive
+- DOMAIN-KEYWORD,sendcdn
+- DOMAIN-KEYWORD,an1
+- DOMAIN-KEYWORD,bayfiles
+- DOMAIN-SUFFIX,d.miui.com
+- DOMAIN-SUFFIX,androidfilehost.com
+- DOMAIN-SUFFIX,dl.sourceforge.net
+- DOMAIN-SUFFIX,ctmp.space
+- DOMAIN-SUFFIX,drive.usercontent.google.com
+- DOMAIN-SUFFIX,ggpht.com
+
+- DOMAIN-SUFFIX,yt3.ggpht.com
+- DOMAIN-SUFFIX,ytimg.com
+- DOMAIN-SUFFIX,gvt2.com
+- DOMAIN-SUFFIX,gvt1.com
+  
+#GOFILE
+- DOMAIN-SUFFIX,gofile.io
+
+#DailyMotion
+- DOMAIN-SUFFIX,dailymotion.com
+- DOMAIN-SUFFIX,dmcdn.net
+  
+#MegaUp
+- DOMAIN-SUFFIX,megaup.net
+  
+#VK
+- DOMAIN-SUFFIX,vkuser.net
+- DOMAIN-SUFFIX,userapi.com
+- DOMAIN-SUFFIX,mycdn.me
+
+#Terabox
+- DOMAIN-SUFFIX,terabox.com
+- DOMAIN-SUFFIX,nephobox.com
+- DOMAIN-SUFFIX,1024tera.com
+- DOMAIN-SUFFIX,terabox1024.com
+- DOMAIN-SUFFIX,teraboxcdn.com
+- DOMAIN-SUFFIX,terabox.app
+
+#Pixeldrain
+- DOMAIN-SUFFIX,pixeldrain.com
+
+#ApkpureDownload
+- DOMAIN-SUFFIX,winudf.com
 
 #Wandrive
 - DOMAIN-SUFFIX,sharepoint.com
