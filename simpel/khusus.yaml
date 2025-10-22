@@ -10,6 +10,7 @@ payload:
 - DOMAIN-KEYWORD,dummy-8vl.pages.dev
 - DOMAIN-KEYWORD,wallbuck.com
 - DOMAIN-KEYWORD,laksa19.github.io
+- DOMAIN-SUFFIX,bigota.d.miui.com
 
 #Wandrive
 - DOMAIN-SUFFIX,sharepoint.com
