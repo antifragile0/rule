@@ -2,7 +2,8 @@ payload:
 #- DST-PORT,3478
 #- IP-CIDR,66.111.48.0/22
 #- IP-CIDR6,2620:13e:1000::/44
-#- DOMAIN-SUFFIX,jg-gta.com
+- DOMAIN-SUFFIX,jg-gta.com
+- DST-PORT,7777
 
 # SPEEDTEST
 - DOMAIN-SUFFIX,ookla.com
