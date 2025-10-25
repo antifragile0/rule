@@ -11,8 +11,6 @@ payload:
 - DOMAIN-KEYWORD,wallbuck.com
 - DOMAIN-KEYWORD,laksa19.github.io
 - DOMAIN-SUFFIX,bigota.d.miui.com
-- DOMAIN-SUFFIX,jg-gta.com
-- DST-PORT,7777
 
 #Wandrive
 - DOMAIN-SUFFIX,sharepoint.com
