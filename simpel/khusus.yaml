@@ -2,14 +2,14 @@ payload:
 #DownloadTest - Data Waster
 - DOMAIN-KEYWORD,speed.hetzner
 - DOMAIN-KEYWORD,datawaster.net
-- DOMAIN-KEYWORD,hletrd.github.io
-- DOMAIN-KEYWORD,uttkarsh.net
+- DOMAIN-SUFFIX,hletrd.github.io
+- DOMAIN-SUFFIX,uttkarsh.net
 - DOMAIN-SUFFIX,cloudflare-ech.com
-- DOMAIN-KEYWORD,richienb.github.io
-- DOMAIN-KEYWORD,cdn-5ev.pages.dev
-- DOMAIN-KEYWORD,dummy-8vl.pages.dev
-- DOMAIN-KEYWORD,wallbuck.com
-- DOMAIN-KEYWORD,laksa19.github.io
+- DOMAIN-SUFFIX,richienb.github.io
+- DOMAIN-SUFFIX,cdn-5ev.pages.dev
+- DOMAIN-SUFFIX,dummy-8vl.pages.dev
+- DOMAIN-SUFFIX,wallbuck.com
+- DOMAIN-SUFFIX,laksa19.github.io
 - DOMAIN-SUFFIX,bigota.d.miui.com
 
 #Wandrive
