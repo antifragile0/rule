@@ -11,6 +11,7 @@ payload:
 - DOMAIN-SUFFIX,wallbuck.com
 - DOMAIN-SUFFIX,laksa19.github.io
 - DOMAIN-SUFFIX,bigota.d.miui.com
+- DOMAIN-SUFFIX,dummy-8vl.pages.dev
 
 #Wandrive
 - DOMAIN-SUFFIX,sharepoint.com
