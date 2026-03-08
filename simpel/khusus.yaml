@@ -1,25 +1,25 @@
 payload:
 #DownloadTest - Data Waster
-- DOMAIN-KEYWORD,speed.hetzner
-- DOMAIN-KEYWORD,datawaster.net
-- DOMAIN-SUFFIX,hletrd.github.io
-- DOMAIN-SUFFIX,uttkarsh.net
-- DOMAIN-SUFFIX,cloudflare-ech.com
-- DOMAIN-SUFFIX,richienb.github.io
-- DOMAIN-SUFFIX,cdn-5ev.pages.dev
-- DOMAIN-SUFFIX,dummy-8vl.pages.dev
-- DOMAIN-SUFFIX,wallbuck.com
-- DOMAIN-SUFFIX,laksa19.github.io
-- DOMAIN-SUFFIX,bigota.d.miui.com
-- DOMAIN-SUFFIX,dummy-8vl.pages.dev
-- DOMAIN-SUFFIX,uttkarsh.net
+#- DOMAIN-KEYWORD,speed.hetzner
+#- DOMAIN-KEYWORD,datawaster.net
+#- DOMAIN-SUFFIX,hletrd.github.io
+#- DOMAIN-SUFFIX,uttkarsh.net
+#- DOMAIN-SUFFIX,cloudflare-ech.com
+#- DOMAIN-SUFFIX,richienb.github.io
+#- DOMAIN-SUFFIX,cdn-5ev.pages.dev
+#- DOMAIN-SUFFIX,dummy-8vl.pages.dev
+#- DOMAIN-SUFFIX,wallbuck.com
+#- DOMAIN-SUFFIX,laksa19.github.io
+#- DOMAIN-SUFFIX,bigota.d.miui.com
+#- DOMAIN-SUFFIX,dummy-8vl.pages.dev
+#- DOMAIN-SUFFIX,uttkarsh.net
 
 #Wandrive
-- DOMAIN-SUFFIX,sharepoint.com
-- DOMAIN-SUFFIX,1drv.com
+#- DOMAIN-SUFFIX,sharepoint.com
+#- DOMAIN-SUFFIX,1drv.com
 ############GAME
-- DOMAIN-SUFFIX,dfpc.cdn.garenanow.com
-- DOMAIN-SUFFIX,valorant.dyn.riotcdn.net
+#- DOMAIN-SUFFIX,dfpc.cdn.garenanow.com
+#- DOMAIN-SUFFIX,valorant.dyn.riotcdn.net
 
 # > Situs Porn
 - DOMAIN-SUFFIX,semprot.com
