@@ -1,5 +1,4 @@
 payload:
-# Hotstar
 - IP-CIDR,192.168.1.1/24
 - IP-CIDR,192.168.8.1/24
 - DOMAIN-SUFFIX,api.nieban.com
